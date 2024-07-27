@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px; /* Increased the width of the calculator */
+}
+
+#display {
+    background-color: #6a6a6a;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%; /* Ensure the display takes the full width of the calculator */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px; /* Row gap */
+    column-gap: 5px; /* Reduced column gap */
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #4573e7;
+}
+
+.button:active {
+    background-color: #0040ff;
+}
+
+.operator{ background-color: #034aff;
+    border: none;
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.operator:hover {
+    background-color: #4573e7;
+}
+
+.operator:active {
+    background-color: #2b3143;}
+
+.clear{
+    background-color: #0048ff;
+    border: none;
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+.clear:hover {
+    background-color: #333e58;
+}
+
+.clear:active {
+    background-color: #2b3656;}
+.calculate{
+    background-color: #0048ff;
+    border: none;
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.calculate:hover {
+    background-color: #2e3956;
+}
+
+.calculate:active {
+    background-color: #394466;}
